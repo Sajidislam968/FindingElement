@@ -18,9 +18,6 @@ public class forPractice {
                 System.out.println("Index Found at " + i);
                 break;
             }
-            //else if(a.get(i) != data){
-            //    System.out.println("Not Found");
-            //}
         }
         if(i>4){
             System.out.println("Not Found");
