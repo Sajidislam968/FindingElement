@@ -13,15 +13,7 @@ public class forPractice {
         a.add(50);
         Scanner s1 = new Scanner(System.in);
         int data = s1.nextInt();
-        /*for(i = 0;i<5;i++){
-            if(a.get(i)== data){
-                System.out.println("Index Found at " + i);
-                break;
-            }
-        }
-        if(i>4){
-            System.out.println("Not Found");
-        }*/
+        
         if(a.contains(data)){
             System.out.println("Index Found");
         }else
